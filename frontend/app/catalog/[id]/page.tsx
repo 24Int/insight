@@ -166,8 +166,12 @@ export default function CatalogPage() {
       {/* Header */}
       <header className="w-full bg-white border-b border-black/10">
         <div className="max-w-6xl mx-auto w-full flex justify-between items-center p-4">
-          <Link href={"/"} className="text-xl font-bold">
-            Инсайт
+          <Link href={"/"}>
+                           <img 
+        src="/logo.svg" 
+        alt="Инсайт" 
+        className="h-12 w-auto" 
+      />
           </Link>
           <div className="flex justify-start items-center gap-4">
             <Link
