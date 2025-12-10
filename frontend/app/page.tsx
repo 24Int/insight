@@ -149,10 +149,10 @@ export default function Home() {
           </Link>
           <div className="flex justify-start items-center gap-4">
             <Link
-              href={"tel:+79990004300"}
+              href={"tel:+79853555470"}
               className="hidden text-xs lg:inline-flex cursor-pointer text-neutral-700 hover:text-accent transition-all duration-300"
             >
-              +7 (999) 000 43 00
+              +7 (985) 355 54 70 
             </Link>
             <button
               onClick={openModal}
@@ -380,8 +380,8 @@ export default function Home() {
                 {[
                   {
                     label: "Телефон:",
-                    href: "tel:+79990004300",
-                    value: "+7 (999) 000 43 00",
+                    href: "tel:+79853555470",
+                    value: "+7 (985) 355 54 70",
                   },
                   {
                     label: "E-mail:",
