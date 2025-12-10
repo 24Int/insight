@@ -385,8 +385,8 @@ export default function Home() {
                   },
                   {
                     label: "E-mail:",
-                    href: "mailto:info@insight.ru",
-                    value: "info@insight.ru",
+                    href: "mailto:info@24int.ru",
+                    value: "info@24int.ru",
                   },
                 ].map(({ label, href, value }) => (
                   <p key={label}>
