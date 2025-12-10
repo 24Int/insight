@@ -144,9 +144,11 @@ export default function Home() {
         style={{ paddingTop: "env(safe-area-inset-top)" }}
       >
         <div className="max-w-6xl mx-auto w-full flex justify-between items-center p-4">
-          <Link href={"/"} className="text-xl font-bold">
-            Инсайт
-          </Link>
+               <img 
+        src="/logo.svg" 
+        alt="Инсайт" 
+        className="h-12 w-auto" 
+      />
           <div className="flex justify-start items-center gap-4">
             <Link
               href={"tel:+79853555470"}
